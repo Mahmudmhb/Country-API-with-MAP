@@ -1,0 +1,18 @@
+.countirs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.country img{
+    width: 200px;
+}
+.country{
+    background: rebeccapurple;
+    border: 3px solid magenta;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px;
+}
